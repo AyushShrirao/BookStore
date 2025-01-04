@@ -21,6 +21,7 @@ if (!MONGO_URI) {
     process.exit(1);
 }
 
+
 // Connect to MongoDB
 mongoose
     .connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
